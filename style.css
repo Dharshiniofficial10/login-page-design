@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: aqua;
+    background:url(japan\ anime.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wrapper{
+    width: 420px;
+    background:transparent;
+    border: 2px solid rgba(255,255,255,0.2);
+    backdrop-filter: blur(2px);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+
+}
+.wrapper h1{
+    color:rgb(2, 2, 54);
+    text-align: center;
+    font-size: 36px;
+}
+.wrapper .inputbox{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin: 30px 0;
+}
+.inputbox input{
+    color: black;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    border: 2px solid rgba(255,255,255,0.2);
+}
+.inputbox input::placeholder{
+    color: #fff;
+}
+.inputbox i{
+    color: black;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.wrapper .rememberforget{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0 15px;
+    font-size: 15px;
+}
+.rememberforget label{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+.rememberforget a{
+    color: #fff;
+    margin-right: 2px;
+    text-decoration: none;
+}
+.rememberforget a:hover{
+    text-decoration: underline;
+}
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+
+}
+.wrapper .btn:hover{
+    background: rgb(1, 1, 54);
+    color: #fff;
+    border-color: #fff;
+}
+.wrapper .registerlink{
+    font-size: 14.5pz;
+    text-align: center;
+    margin: 20px  15px;
+    text-decoration: none;
+    font-weight: 400;
+}
+.registerlink p a:hover{
+    text-decoration: underline;
+
+}
